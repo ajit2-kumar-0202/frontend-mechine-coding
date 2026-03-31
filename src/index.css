@@ -30,3 +30,28 @@ body {
   transition: 0.5s ease-in;
   border: 1px solid black;
 }
+
+.tab_container {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.tab_name {
+  color: white; 
+  font-size: 3rem; 
+  cursor: pointer;
+  border: 1px solid white;
+  padding: 10px;
+  margin: auto;
+}
+
+.tab_screen {
+  width: 500px;
+  height: 500px;
+  border: 1px solid white;
+  color: aliceblue;
+  display: grid;
+  place-items: center;
+}
